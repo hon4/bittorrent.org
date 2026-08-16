@@ -123,7 +123,7 @@ appear in the files list. The files list is the value
 ``files`` maps to, and is a list of dictionaries containing
 the following keys:
 
-``length`` - The length of the file, in bytes.
+``length`` - The length of the file, in bytes. This should only be used in the case of a single file. In case of multiple files only path list should exist.
 
 ``path`` - A list of UTF-8 encoded strings corresponding to subdirectory
 names, the last of which is the actual file name (a zero length list
